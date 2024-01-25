@@ -28,7 +28,18 @@ The functionality that this model provides to users includes...
 
 ## Installation and Setup
 
-In order to run the project, it is reccomended that the user has a text editor such as VsCode installed but they can also run the program through the terminal as well. The user should create a project folder and copy the files/folders in the GitHub repository. Once downloaded, the folder/file setup should be similar to the example below...
+In order to run the project, it is reccomended that the user has an IDE such as VsCode installed but they can also run the program through the terminal as well. The user should create a project folder and copy the files/folders in the GitHub repository. Once downloaded, the folder/file setup should be similar to the example below...
+
+<img width="224" alt="Screenshot 2024-01-24 at 7 41 13 PM" src="https://github.com/harshp425/Real-Time-Tool-Classifier/assets/126726290/24818b54-cf79-4110-aefc-bfb3b46fed86">
+
+Inside the `webcam_real_time.py` file, the user must navigate to `model = tf.keras.models.load_model('your path')` and replace the `'your path'` with the actaul path of the project folder.
 
 
+## Running the Program
+
+In order to run the program, the user must run the `webcam_real_time.py` file either through the integrated terminal of VsCode or through the terminal/shell of the machine (ensuring that the user is in the proper directory). Upon initialization of the program, a window will appear on the user's screen displaying the computer's camera view (Note: if the user is using a MacBook, the camera feed might originate from thier phone).
+
+
+
+In order to exit the program, the user can simply press the `q` key which will terminate the program. 
 
