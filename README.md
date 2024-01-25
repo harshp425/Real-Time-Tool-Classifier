@@ -43,3 +43,7 @@ In order to run the program, the user must run the `webcam_real_time.py` file ei
 
 In order to exit the program, the user can simply press the `q` key which will terminate the program. 
 
+## Customization 
+
+In order to customize the location of the tools, the user must navigate to the  `webcam_real_time.py` where they will find the `location` function at the top of the file. This function creates and returns a dictionary which has all of the tools as keys and thier locations as values. The user can then just alter strings that provide the location for each of the tools. 
+
